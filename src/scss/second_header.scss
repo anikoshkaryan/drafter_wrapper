@@ -1,0 +1,73 @@
+
+.personal_area__mobile_list_wrapper {
+    position: absolute;
+    top: 43px;
+    width: 182px;
+    height: 80px;
+    /* left: 1158px; */
+    /* top: -4px; */
+    background: #1F262E;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.area_svg.active{
+    transform: rotate(180deg);
+}
+.personal_area__mobile_list_wrapper.open{
+    display: flex;
+}
+.main_nav_wrapper {
+    margin-right: 32px;
+}
+
+.perosonal_area_img_name_wrapper {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.personal_area_name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E5D6A0;
+    margin: 0 16px;
+}
+.area_link {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #DADADA;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.personal_area_list_line {
+    max-width: 182px;
+    width: 100%;
+    height: 0px;
+    border: 1px solid #848993;
+    margin: 8px 0;
+}
+
+.hamburger-menu-line{
+    background: #D2BE8B!important;
+}
+
+.mobile_version {
+    background: #0d151e!important;
+}
+
+.mobile-close {
+    color: #D2BE8B!important;
+    font-size: 35px!important;
+}

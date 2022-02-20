@@ -1,0 +1,198 @@
+//service
+.service{
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(13, 21, 30, 0) 0%, #0D151E 100%), url("../images/log_in_back.png");
+    background-size: cover;
+    min-height: 968px;
+    padding-top: 235px;
+    .service_wrapper{
+        max-width: 922px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .service_title{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 90px;
+    }
+    .service_items_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .service_item {
+        max-width: 270px;
+        width: 31%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .service_item_img_wrapper {
+        margin-bottom: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .service_item_title {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 47px;
+    }
+    .service_item_link{
+        width: 240px;
+        height: 56px;
+        background: rgba(210, 190, 139, 0.02);
+        border: 2px solid #D2BE8B;
+        cursor: pointer;
+        outline: none;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 18px;
+         text-align: center;
+        color: #D2BE8B;
+        &:hover{        
+        background: #E5D6A0;
+        color: #000000;
+        }
+    }
+    .active_link{
+        background: #E5D6A0;
+        color: #000000;
+    }
+    .service_item_info_title {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.04em;
+        color: #DADADA;
+    }
+    .service_item_info_num {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.04em;
+        color: #DADADA;
+    }
+  
+}
+
+//media
+
+
+
+@media (min-width:501px) and (max-width:650px){
+    .service_title{
+         font-size: 32px!important;
+         margin-bottom: 76px!important;
+     }
+    
+ }
+ @media (min-width:426px) and (max-width:500px){
+    .service_title{
+         font-size: 28px!important;
+         margin-bottom: 70px!important;
+     }
+  
+    
+ }
+ 
+ @media (min-width:371px) and (max-width:425px){
+    .service_title{
+         font-size: 26px!important;
+         margin-bottom: 60px!important;
+        
+     }
+
+   
+  
+ }
+ 
+ @media (max-width:370px){
+    .service_title{
+         font-size: 24px!important;
+         margin-bottom: 60px!important;
+     
+     }
+  
+ }
+ @media(max-width:768px){
+     .service{
+         padding-top: 64px!important;
+     }
+     .service_item_info_wrapper{
+         display: none;
+     }
+     .service_item_img_wrapper{
+         margin-bottom: 24px!important;
+     }
+     .service_item_title{
+         margin-bottom: 30px!important;
+     }
+ }
+
+ @media (min-width:426px) and (max-width:768px){
+ 
+    .service{
+         min-height: unset!important;
+         padding-bottom: 105px;
+         background-image:  linear-gradient(180deg, rgba(13, 21, 30, 0) 0%, #0D151E 100%), url("../images/log_in_second_img.png")!important;
+     }
+    
+ }
+ 
+ 
+ 
+ @media(max-width:425px){
+ 
+    .service{
+         background-image:  linear-gradient(180deg, rgba(13, 21, 30, 0) 0%, #0D151E 100%), url("../images/mobile_confirm.png")!important;
+         min-height: unset!important;
+         padding-bottom: 41px;
+     }
+    
+  
+ }
+
+
+
+ @media(max-width:1000px){
+    .service_wrapper {
+
+        width: 93%!important;
+      
+    }
+ }
+
+
+ @media(max-width:827px){
+     .service_items_wrapper{
+         flex-wrap: wrap;
+         align-items: center;
+         justify-content: center!important;
+     }
+     .service_item{
+         max-width: unset!important;
+         width: 100%!important;
+         align-items: center;
+         margin-bottom: 53px;
+     }
+ }

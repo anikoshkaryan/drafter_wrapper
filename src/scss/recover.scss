@@ -1,0 +1,153 @@
+//recover_password
+.recover_password{
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(13, 21, 30, 0) 0%, #0D151E 100%), url("../images/log_in_back.png");
+    background-size: cover;
+    min-height: 968px;
+    padding-top: 299px;
+    .recover_password_wrapper{
+        max-width: 435px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .recover_password_form_title{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 81px;
+        text-align: center;
+
+    }
+    .recover_password_form_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .recover_password_inputs_wrapper{
+        max-width: 398px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .recover_password_input{
+        max-width: 398px;
+        width: 100%;
+        height: 48px;
+        background: rgba(165, 170, 183, 0.1);
+        border: 1px solid #9B8E6C;
+        box-sizing: border-box;
+        cursor: pointer;
+        padding: 12px 16px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #9B8E6C;
+        &:focus{
+            outline: none;
+        }
+        &:active{
+            outline: none;
+        }
+    }
+    .recover_password_form_btn {
+        background: #D2BE8B;
+        max-width: 398px;
+        width: 100%;
+        height: 50px;
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #1F2326;
+        cursor: pointer;
+    }
+ 
+    
+}
+
+@media (min-width:769px) and (max-width:1920px){
+    .special_input{
+        margin-bottom: 40px!important;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px){
+    .special_input{
+        margin-bottom: 309px!important;
+    }
+} 
+@media (min-width:501px) and (max-width:650px){
+   .recover_password_form_title {
+        font-size: 32px!important;
+    }
+    .recover_password{
+        padding-top: 200px!important;
+    }
+}
+@media (min-width:426px) and (max-width:500px){
+    .recover_password_form_title {
+        font-size: 28px!important;
+        margin-bottom: 70px!important;
+    }
+    .recover_password{
+        padding-top: 160px!important;
+    }
+}
+
+@media (min-width:371px) and (max-width:425px){
+    .recover_password_form_title  {
+        font-size: 26px!important;
+        margin-bottom: 60px!important;
+         & span{
+             display: none!important;
+         }
+    }
+}
+
+@media (max-width:370px){
+    .recover_password_form_title  {
+        font-size: 24px!important;
+        margin-bottom: 60px!important;
+        & span{
+            display: none!important;
+        }
+    }
+}
+
+@media(max-width:456px){
+    .recover_password_wrapper {
+        width: 93%!important;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px){
+ 
+   .recover_password{
+        min-height: unset!important;
+        padding-bottom: 80px;
+        background-image:  linear-gradient(180deg, rgba(13, 21, 30, 0) 0%, #0D151E 100%), url("../images/log_in_second_img.png")!important;
+    }
+}
+
+
+
+@media(max-width:425px){
+
+    .recover_password {
+        padding-top: 131px!important;
+        background-image:  linear-gradient(180deg, rgba(13, 21, 30, 0) 0%, #0D151E 100%), url("../images/mobile_confirm.png")!important;
+        min-height: unset!important;
+        padding-bottom: 41px;
+    }
+    .special_input{
+        margin-bottom: 131px!important;
+    }
+}
